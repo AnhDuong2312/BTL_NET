@@ -77,17 +77,19 @@
             this.panel1.Controls.Add(this.vaoThi);
             this.panel1.Controls.Add(this.trangChu);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(79, 0);
+            this.panel1.Location = new System.Drawing.Point(105, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 82);
+            this.panel1.Size = new System.Drawing.Size(1067, 101);
             this.panel1.TabIndex = 4;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(225)))), ((int)(((byte)(212)))));
-            this.panel2.Location = new System.Drawing.Point(373, 60);
+            this.panel2.Location = new System.Drawing.Point(497, 74);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(71, 3);
+            this.panel2.Size = new System.Drawing.Size(95, 4);
             this.panel2.TabIndex = 16;
             // 
             // FullName
@@ -100,14 +102,14 @@
             this.FullName.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FullName.FlatAppearance.BorderSize = 0;
             this.FullName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FullName.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FullName.ForeColor = System.Drawing.Color.White;
-            this.FullName.Location = new System.Drawing.Point(583, 25);
-            this.FullName.Margin = new System.Windows.Forms.Padding(2);
+            this.FullName.Location = new System.Drawing.Point(777, 31);
+            this.FullName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FullName.Name = "FullName";
-            this.FullName.Size = new System.Drawing.Size(198, 36);
+            this.FullName.Size = new System.Drawing.Size(264, 44);
             this.FullName.TabIndex = 5;
-            this.FullName.Text = "Nguyễn Minh Quân";
+            this.FullName.Text = "Nguyễn Thế Huy\r\n";
             this.FullName.TextColor = System.Drawing.Color.White;
             this.FullName.UseVisualStyleBackColor = false;
             this.FullName.Click += new System.EventHandler(this.rjButton1_Click);
@@ -116,11 +118,12 @@
             // 
             this.xepHang.AutoSize = true;
             this.xepHang.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.xepHang.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xepHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xepHang.ForeColor = System.Drawing.Color.White;
-            this.xepHang.Location = new System.Drawing.Point(474, 31);
+            this.xepHang.Location = new System.Drawing.Point(632, 38);
+            this.xepHang.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.xepHang.Name = "xepHang";
-            this.xepHang.Size = new System.Drawing.Size(90, 22);
+            this.xepHang.Size = new System.Drawing.Size(105, 25);
             this.xepHang.TabIndex = 4;
             this.xepHang.Text = "Xếp hạng";
             this.xepHang.Click += new System.EventHandler(this.xepHang_Click);
@@ -129,11 +132,12 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label5.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(371, 31);
+            this.label5.Location = new System.Drawing.Point(495, 38);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 22);
+            this.label5.Size = new System.Drawing.Size(87, 25);
             this.label5.TabIndex = 3;
             this.label5.Text = "Kết quả";
             this.label5.Click += new System.EventHandler(this.ketQua_Click);
@@ -142,11 +146,12 @@
             // 
             this.vaoThi.AutoSize = true;
             this.vaoThi.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.vaoThi.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vaoThi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vaoThi.ForeColor = System.Drawing.Color.White;
-            this.vaoThi.Location = new System.Drawing.Point(286, 31);
+            this.vaoThi.Location = new System.Drawing.Point(381, 38);
+            this.vaoThi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.vaoThi.Name = "vaoThi";
-            this.vaoThi.Size = new System.Drawing.Size(69, 22);
+            this.vaoThi.Size = new System.Drawing.Size(80, 25);
             this.vaoThi.TabIndex = 2;
             this.vaoThi.Text = "Vào thi";
             this.vaoThi.Click += new System.EventHandler(this.vaoThi_Click);
@@ -155,11 +160,12 @@
             // 
             this.trangChu.AutoSize = true;
             this.trangChu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.trangChu.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trangChu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.trangChu.ForeColor = System.Drawing.Color.White;
-            this.trangChu.Location = new System.Drawing.Point(175, 31);
+            this.trangChu.Location = new System.Drawing.Point(233, 38);
+            this.trangChu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.trangChu.Name = "trangChu";
-            this.trangChu.Size = new System.Drawing.Size(94, 22);
+            this.trangChu.Size = new System.Drawing.Size(110, 25);
             this.trangChu.TabIndex = 1;
             this.trangChu.Text = "Trang chủ";
             this.trangChu.Click += new System.EventHandler(this.trangChu_Click);
@@ -169,9 +175,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Kristen ITC", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(2, 21);
+            this.label1.Location = new System.Drawing.Point(3, 26);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 44);
+            this.label1.Size = new System.Drawing.Size(187, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "QuizPro";
             // 
@@ -214,7 +221,8 @@
             this.KetQuaTable.EnableHeadersVisualStyles = false;
             this.KetQuaTable.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(12)))));
             this.KetQuaTable.HeaderForeColor = System.Drawing.Color.White;
-            this.KetQuaTable.Location = new System.Drawing.Point(34, 150);
+            this.KetQuaTable.Location = new System.Drawing.Point(45, 185);
+            this.KetQuaTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.KetQuaTable.Name = "KetQuaTable";
             this.KetQuaTable.ReadOnly = true;
             this.KetQuaTable.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -227,7 +235,7 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.KetQuaTable.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.KetQuaTable.RowHeadersWidth = 51;
-            this.KetQuaTable.Size = new System.Drawing.Size(806, 379);
+            this.KetQuaTable.Size = new System.Drawing.Size(1075, 466);
             this.KetQuaTable.TabIndex = 7;
             // 
             // Column1
@@ -319,16 +327,17 @@
             this.MonHocOption.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(12)))));
             this.MonHocOption.BorderSize = 1;
             this.MonHocOption.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.MonHocOption.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MonHocOption.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MonHocOption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(12)))));
             this.MonHocOption.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(12)))));
             this.MonHocOption.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
             this.MonHocOption.ListTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(12)))));
-            this.MonHocOption.Location = new System.Drawing.Point(216, 102);
-            this.MonHocOption.MinimumSize = new System.Drawing.Size(200, 30);
+            this.MonHocOption.Location = new System.Drawing.Point(288, 126);
+            this.MonHocOption.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MonHocOption.MinimumSize = new System.Drawing.Size(267, 37);
             this.MonHocOption.Name = "MonHocOption";
             this.MonHocOption.Padding = new System.Windows.Forms.Padding(1);
-            this.MonHocOption.Size = new System.Drawing.Size(290, 30);
+            this.MonHocOption.Size = new System.Drawing.Size(387, 37);
             this.MonHocOption.TabIndex = 8;
             this.MonHocOption.Texts = "Chọn môn học";
             this.MonHocOption.OnSelectedIndexChanged += new System.EventHandler(this.MonHocOption_OnSelectedIndexChanged);
@@ -342,11 +351,12 @@
             this.timkiem_btn.BorderSize = 0;
             this.timkiem_btn.FlatAppearance.BorderSize = 0;
             this.timkiem_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.timkiem_btn.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timkiem_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timkiem_btn.ForeColor = System.Drawing.Color.White;
-            this.timkiem_btn.Location = new System.Drawing.Point(559, 102);
+            this.timkiem_btn.Location = new System.Drawing.Point(745, 126);
+            this.timkiem_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.timkiem_btn.Name = "timkiem_btn";
-            this.timkiem_btn.Size = new System.Drawing.Size(98, 30);
+            this.timkiem_btn.Size = new System.Drawing.Size(131, 37);
             this.timkiem_btn.TabIndex = 9;
             this.timkiem_btn.Text = "Tra cứu";
             this.timkiem_btn.TextColor = System.Drawing.Color.White;
@@ -356,16 +366,17 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::WindowsFormsApp_Login.Properties.Resources._21504082051;
-            this.pictureBox2.Location = new System.Drawing.Point(-5, -1);
+            this.pictureBox2.Location = new System.Drawing.Point(-7, -1);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(90, 84);
+            this.pictureBox2.Size = new System.Drawing.Size(120, 103);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
             // rjDropdownMenu1
             // 
-            this.rjDropdownMenu1.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjDropdownMenu1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjDropdownMenu1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.rjDropdownMenu1.IsMainMenu = true;
             this.rjDropdownMenu1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -377,33 +388,33 @@
             this.rjDropdownMenu1.MenuItemTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(12)))));
             this.rjDropdownMenu1.Name = "rjDropdownMenu1";
             this.rjDropdownMenu1.PrimaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(12)))));
-            this.rjDropdownMenu1.Size = new System.Drawing.Size(189, 92);
+            this.rjDropdownMenu1.Size = new System.Drawing.Size(215, 92);
             // 
             // vàoThiToolStripMenuItem
             // 
             this.vàoThiToolStripMenuItem.Name = "vàoThiToolStripMenuItem";
-            this.vàoThiToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.vàoThiToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.vàoThiToolStripMenuItem.Text = "Vào thi";
             this.vàoThiToolStripMenuItem.Click += new System.EventHandler(this.vàoThiToolStripMenuItem_Click);
             // 
             // thayĐổiThôngTinToolStripMenuItem
             // 
             this.thayĐổiThôngTinToolStripMenuItem.Name = "thayĐổiThôngTinToolStripMenuItem";
-            this.thayĐổiThôngTinToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.thayĐổiThôngTinToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.thayĐổiThôngTinToolStripMenuItem.Text = "Thay đổi thông tin";
             this.thayĐổiThôngTinToolStripMenuItem.Click += new System.EventHandler(this.thayĐổiThôngTinToolStripMenuItem_Click);
             // 
             // thayĐổiMậtKhẩuToolStripMenuItem
             // 
             this.thayĐổiMậtKhẩuToolStripMenuItem.Name = "thayĐổiMậtKhẩuToolStripMenuItem";
-            this.thayĐổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.thayĐổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.thayĐổiMậtKhẩuToolStripMenuItem.Text = "Thay đổi mật khẩu";
             this.thayĐổiMậtKhẩuToolStripMenuItem.Click += new System.EventHandler(this.thayĐổiMậtKhẩuToolStripMenuItem_Click);
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
@@ -417,14 +428,15 @@
             this.XuatFile.Cursor = System.Windows.Forms.Cursors.Hand;
             this.XuatFile.FlatAppearance.BorderSize = 0;
             this.XuatFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.XuatFile.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.XuatFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.XuatFile.ForeColor = System.Drawing.Color.White;
             this.XuatFile.Image = global::WindowsFormsApp_Login.Properties.Resources.file_export_solid_24;
             this.XuatFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.XuatFile.Location = new System.Drawing.Point(725, 540);
+            this.XuatFile.Location = new System.Drawing.Point(967, 665);
+            this.XuatFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.XuatFile.Name = "XuatFile";
-            this.XuatFile.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.XuatFile.Size = new System.Drawing.Size(115, 32);
+            this.XuatFile.Padding = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.XuatFile.Size = new System.Drawing.Size(153, 39);
             this.XuatFile.TabIndex = 70;
             this.XuatFile.Text = "Xuất file";
             this.XuatFile.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -434,16 +446,17 @@
             // 
             // KetQua
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(225)))), ((int)(((byte)(212)))));
-            this.ClientSize = new System.Drawing.Size(872, 582);
+            this.ClientSize = new System.Drawing.Size(1163, 716);
             this.Controls.Add(this.XuatFile);
             this.Controls.Add(this.timkiem_btn);
             this.Controls.Add(this.MonHocOption);
             this.Controls.Add(this.KetQuaTable);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "KetQua";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KetQua";

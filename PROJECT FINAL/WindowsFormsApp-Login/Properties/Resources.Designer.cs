@@ -163,6 +163,16 @@ namespace WindowsFormsApp_Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Anh_bia_hoc_tap_thi_cu_facebook___1_ {
+            get {
+                object obj = ResourceManager.GetObject("Anh-bia-hoc-tap-thi-cu-facebook- (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bg_dangky {
             get {
                 object obj = ResourceManager.GetObject("bg dangky", resourceCulture);
@@ -486,6 +496,16 @@ namespace WindowsFormsApp_Login.Properties {
         internal static System.Drawing.Bitmap tải_xuống {
             get {
                 object obj = ResourceManager.GetObject("tải xuống", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap th {
+            get {
+                object obj = ResourceManager.GetObject("th", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

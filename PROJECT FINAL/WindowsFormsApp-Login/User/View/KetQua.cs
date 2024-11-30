@@ -231,8 +231,8 @@ namespace WindowsFormsApp_Login.User.View
                     table.WidthPercentage = 120;
 
                     Phrase leftPhrase = new Phrase();
-                    leftPhrase.Add(new Phrase("BỘ XÂY DỰNG\n", fontNonal));
-                    leftPhrase.Add(new Phrase("TRƯỜNG ĐH KIẾN TRÚC HÀ NỘI\n", boldFont));
+                    leftPhrase.Add(new Phrase("BỘ CÔNG THƯƠNG\n", fontNonal));
+                    leftPhrase.Add(new Phrase("TRƯỜNG ĐH KINH TẾ - KỸ THUẬT CÔNG NHIỆP HÀ NỘI\n", boldFont));
                     leftPhrase.Add(new Phrase("-------------------", fontNonal));
                     leftPhrase.Add(new Phrase("\nKHOA CÔNG NGHỆ THÔNG TIN", boldFont));
                     PdfPCell leftCell = new PdfPCell(leftPhrase);

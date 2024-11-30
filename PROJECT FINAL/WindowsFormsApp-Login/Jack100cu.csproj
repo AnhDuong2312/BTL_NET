@@ -572,12 +572,14 @@
     <None Include="Resources\search-alt-regular-241.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\th.jpg" />
     <None Include="Resources\tải xuống.png" />
     <None Include="Resources\reload %281%29.png" />
     <None Include="Resources\phone-solid-24.png" />
     <None Include="Resources\user-solid-24.png" />
     <None Include="Resources\file-export-solid-24.png" />
     <None Include="Resources\contact-solid-24.png" />
+    <None Include="Resources\Anh-bia-hoc-tap-thi-cu-facebook- %281%29.jpg" />
     <Content Include="Resources\logoHAU.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
